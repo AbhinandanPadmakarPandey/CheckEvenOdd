@@ -18,8 +18,8 @@ public class EvenOddChecker {
                         countOdd++;
                     }
                 }
-            } catch (Exception e) {
-                System.out.println("Given element must be integer, " + e);
+            } catch (Exception exception) {
+                System.out.println("Given element must be integer, " + exception);
             }
         }
         System.out.println("Number of even and odd numbers are " + countEven + " and " + countOdd + " respectively.");
