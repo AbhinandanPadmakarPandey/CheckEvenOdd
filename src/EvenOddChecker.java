@@ -4,7 +4,7 @@
  * Date: 9th January 2020
  */
 
-public class checkEvenOdd {
+public class EvenOddChecker {
     public static void main(String[] args) {
         int countEven = 0;
         int countOdd = 0;
