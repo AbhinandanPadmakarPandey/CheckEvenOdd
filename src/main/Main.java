@@ -12,6 +12,6 @@ import checker.EvenOddChecker;
 public class Main {
     public static void main(String[] args) {
         EvenOddChecker checker = new EvenOddChecker();
-        checker.checkEvenOddInString(new String[]{"0", "1", "2"});
+        checker.checkEvenOddInStringArray(new String[]{"0", "1", "2"});
     }
 }
