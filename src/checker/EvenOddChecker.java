@@ -5,10 +5,10 @@ package checker;/*
  */
 
 public class EvenOddChecker {
-    public static void main(String[] args) {
+    public static void checkEvenOddInString(String[] inputString) {
         int countEven = 0;
         int countOdd = 0;
-        for (String arg : args) {
+        for (String arg : inputString) {
             try {
                 int a = Integer.parseInt(arg);
                 if (a != 0) {
