@@ -5,7 +5,7 @@ package checker;/*
  */
 
 public class EvenOddChecker {
-    public static void checkEvenOddInString(String[] inputString) {
+    public void checkEvenOddInString(String[] inputString) {
         int countEven = 0;
         int countOdd = 0;
         for (String stringDigit : inputString) {
