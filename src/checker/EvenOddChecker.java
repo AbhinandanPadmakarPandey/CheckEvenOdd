@@ -8,9 +8,9 @@ public class EvenOddChecker {
     public static void checkEvenOddInString(String[] inputString) {
         int countEven = 0;
         int countOdd = 0;
-        for (String arg : inputString) {
+        for (String stringDigit : inputString) {
             try {
-                int a = Integer.parseInt(arg);
+                int a = Integer.parseInt(stringDigit);
                 if (a != 0) {
                     if (a / 2 == 0) {
                         countEven++;
