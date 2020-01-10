@@ -12,7 +12,7 @@ public class EvenOddChecker {
             try {
                 int integerDigit = Integer.parseInt(stringDigit);
                 if (integerDigit != 0) {
-                    if (integerDigit / 2 == 0) {
+                    if (integerDigit % 2 == 0) {
                         countEven++;
                     } else {
                         countOdd++;
