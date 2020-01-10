@@ -22,6 +22,6 @@ public class checkEvenOdd {
                 System.out.println("Given element must be integer, " + e);
             }
         }
-        System.out.println("Number of even and odd numbers are " + countEven + " and " + countOdd+" respectively.");
+        System.out.println("Number of even and odd numbers are " + countEven + " and " + countOdd + " respectively.");
     }
 }
